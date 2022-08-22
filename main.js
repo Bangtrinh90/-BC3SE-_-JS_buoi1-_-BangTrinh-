@@ -105,8 +105,8 @@ console.log("Tổng tiền VND: " + VND);
  */
 
  var soNhap = 23;
- var hangChuc = soNhap / 10;
- var hangDvi = Math.floor(soNhap % 10);
+ var hangChuc = Math.floor(soNhap / 10);
+ var hangDvi = soNhap % 10;
  var tongGTri = hangChuc + hangDvi;
  console.log("Tổng 2 ký số: " + tongGTri);
 
